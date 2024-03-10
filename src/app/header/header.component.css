@@ -1,0 +1,45 @@
+.navbar {
+    background-color: #ffffff; /* white */
+  }
+  
+  *{
+    font-size: 14px;;
+  }
+
+  .custom-dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+  }
+
+  .custom-dropdown-toggle.collapsed::after {
+    border-top: 0;
+    border-bottom: 0.3em solid;
+  }
+
+  .btn-warning {
+    border: none;
+  }
+
+  .search-container {
+    position: relative;
+    width: 300px; /* Adjust width as needed */
+  }
+  
+  .search-container input[type="text"] {
+    width: calc(100% - 30px); /* Adjust width for space occupied by icon */
+    padding-right: 30px; /* Space for the icon */
+  }
+  
+  .search-container .search-icon {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }

@@ -1,0 +1,50 @@
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+
+  .footer p {
+    margin-bottom: 0;
+  }
+
+  .input-group .form-control::placeholder {
+    color: #9b9898a8;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+
+  .fa-rss {
+    background: #ff6600;
+    color: white;
+  }
+
+  .icon-content{
+    margin-right: 4px;
+  }
+  
+  p{
+    font-size: 15px;
+    color: #9e9a9a;
+    padding-bottom: 5px;
+  }
+  h5{
+    margin-bottom: 28px;;
+  }
+
+  .footer-container{
+    background-color: rgb(34, 32, 32);
+  }

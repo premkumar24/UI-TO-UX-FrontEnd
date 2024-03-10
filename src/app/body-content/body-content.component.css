@@ -1,0 +1,160 @@
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 19%;
+    transform: translate(-50%, -50%);
+    color: black;
+  }
+  
+
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+
+  .entire-div {
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+
+
+  .product-card-2 {
+    width: 360px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .product-card {
+    width: 217px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .product-details {
+    padding: 10px;
+  }
+  
+  .product-title {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  
+  .rating {
+    color: #ffc107; /* Yellow color for stars */
+  }
+  
+  .star {
+    font-size: 20px;
+  }
+  
+  .price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #007bff; /* Blue color for price */
+  }
+  
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; /* Arrange items vertically */
+  }
+
+  .cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .cart-icon {
+    margin-left: 10px;
+  }
+
+  .category-container {
+    display: flex;
+    align-items: center;
+  }
+
+  
+  h5 {
+    margin-right: 10px; /* Adjust spacing as needed */
+  }
+  
+  .list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-left: 650px;
+  }
+  
+  .list li {
+    margin-left: 10px; /* Adjust spacing as needed */
+  }
+  
+  .image-container {
+    position: relative;
+  }
+  
+  .image-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Adjust the width as needed */
+    height: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5) 70%, rgba(0, 0, 0, 0) 100%);
+    z-index: 1; /* Ensure the pseudo-element is above the image */
+  }
+  
+  .image-container h3 {
+    color: #fded03;
+    font-size: 22px;
+    font-weight: bold;
+    position: absolute;
+    top: 20%; /* Adjust the position as needed */
+    left: 16%; /* Adjust the position as needed */
+    transform: translate(-50%, -50%); /* Center the heading */
+    z-index: 1; /* Ensure the heading appears above the image */
+  }
+
+  .image-container p {
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%; /* Adjust the position as needed */
+    left: 25%; /* Adjust the position as needed */
+    transform: translate(-50%, -50%); /* Center the heading */
+    z-index: 1; /* Ensure the heading appears above the image */
+    width:250px;
+    word-wrap:break-word;
+    overflow: hidden;
+    height: 65px;
+  }
+
+  .image-container button {
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    position: absolute;
+    top: 70%; /* Adjust the position as needed */
+    left: 13%; /* Adjust the position as needed */
+    transform: translate(-50%, -50%); /* Center the heading */
+    z-index: 1; /* Ensure the heading appears above the image */
+    width:100px;
+    height: 35px;
+  }
+  
+  

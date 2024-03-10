@@ -1,0 +1,132 @@
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarNav"
+            style="margin-left: 88px;margin-right: 88px;">
+            <ul class="navbar-nav ">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">About US <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contacts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Store Location</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Track Order</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Compare : <b>2</b></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Currency : <b>RS</b></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Language : <b>EN</b></a>
+                </li>
+            </ul>
+
+
+        </div>
+
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light" style="margin-top: -7px;border-bottom: 1px solid #ffffff9c;">
+        <div class="collapse navbar-collapse justify-content-between" id="navbarNav"
+            style="margin-left: 88px;margin-right: 88px;">
+            <ul class="navbar-nav ">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#"><img src="../../assets/Images/logo.png" alt="logo" width="125px;"
+                            height="43px;"></a>
+                </li>
+                <li class="nav-item">
+                    <div class="dropdown">
+                        <button class="btn btn-warning   "
+                            style="background-color: rgb(255, 238, 3);margin-top: 6px; margin-left: 3px;" type="button"
+                            id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-car"></i> Select Vehicle <i class="fa fa-sort"></i>
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Car</a>
+                            <a class="dropdown-item" href="#">Motor bike</a>
+                            <a class="dropdown-item" href="#">Jeep</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div class="search-container">
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Enter keyword or Part Number"
+                            style="width :300px ;margin-top: 6px; margin-left: 3px;background-color: rgba(162, 168, 173, 0.493);">
+                        <i class="fas fa-search search-icon"></i>
+                    </div>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item active" style="margin-right: 10px;">
+                    <img src="../../assets/Images/heart.svg" alt="">
+                </li>
+                <li class="nav-item" style="margin-left: 15px;">
+                    <img src="../../assets/Images/person.svg" alt="" style="float: left;">
+                    <p style="font-size: 13px;float: left;margin-left: 4px;">Hello, Log IN <br> <b>My Account</b></p>
+                </li>
+                <li class="nav-item" style="margin-left: 15px;">
+                    <img src="../../assets/Images/cart.svg" alt="" style="float: left;">
+                    <p style="font-size: 13px;float: left;margin-left: 4px;">Shopping Cart <br> <b>{{ amount |
+                            currency:'INR' }}</b></p>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <br>
+    <h5 style="border-bottom: 0.2px ridge #cfcbcb;margin-top:-21px"></h5>
+    <nav class="navbar navbar-expand-lg navbar-light" style="margin-top: -8px;border-bottom: 4px solid #f8f7f7;">
+        <div class="collapse navbar-collapse justify-content-between" id="navbarNav"
+            style="margin-left: 88px;margin-right: 88px;">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#"><i class="fas fa-bars" style="margin-right: 4px;"></i> Shop By Category
+                        <i class="fas fa-caret-down" style="margin-left: 15px;;"></i></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <i class="fas fa-caret-down"></i></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Megamenu <i class="fas fa-caret-down"></i></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Shop <i class="fas fa-caret-down"></i></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Blog <i class="fas fa-caret-down"></i></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Account <i class="fas fa-caret-down"></i></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Pages <i class="fas fa-caret-down"></i></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Buy Theme</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#"> Call Us : <b>{{phone_no}}</b></a>
+                </li>
+            </ul>
+        </div>
+        
+    </nav>
+    <br>
+    
+</header>
